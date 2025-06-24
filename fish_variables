@@ -1,7 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export ASDF_DATA_DIR:/home/nyuuya/\x2econfig/asdf
-SETUVAR --export FISH_LOG:/home/nyuuya/\x2elocal/state/fish/logs
 SETUVAR --export NPM_CONFIG_PREFIX:/home/nyuuya/\x2elocal
 SETUVAR --export --path PATH:/home/nyuuya/\x2elocal/share/nvim/mason/bin\x1e/home/nyuuya/\x2elocal/bin\x1e/usr/local/bin\x1e/home/nyuuya/\x2elocal/bin\x1e/usr/bin\x1e/home/nyuuya/\x2elocal/bin\x1e/bin\x1e/home/nyuuya/\x2elocal/bin\x1e/usr/local/sbin\x1e/home/nyuuya/\x2elocal/bin\x1e/usr/sbin\x1e/home/nyuuya/\x2elocal/bin\x1e/sbin\x1e/home/nyuuya/\x2elocal/bin
 SETUVAR __fish_initialized:3800
