@@ -23,6 +23,8 @@ end
 # 対話セッション時の処理
 if status is-interactive
         asdf_conf
-        nvim
         fish_add_path $HOME/.local/bin
+        if not set -q NVIM ; and not test "$TERM_PROGRAM" = "vscode"
+                nvim +term
+        end
 end
